@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aerovision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <nav>
+                <div class="logo">
+                    <a href="{{ url_for('index') }}"><img src="{{ url_for('static', filename='images/icon.png') }}" alt="Logo"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="{{ url_for('index') }}">Home</a></li>
+                        <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                        <li><a href="{{ url_for('account') }}">Account</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="landingMain">
+            
+            <section id="about">
+                <h2>About AeroVision</h2>
+                <p>The D Check, a rigorous maintenance procedure for aircraft, traditionally requires up to two months of downtime, 50,000 man-hours, and millions of dollars in lost revenue. Our innovative solution addresses this challenge with an AI-powered damage detection system that leverages Physics-Informed Neural Networks (PINNs) and Convolutional Neural Networks (CNNs). By combining precision and efficiency, this technology enables real-time detection of structural damage and predictive maintenance. The result is a significant reduction in inspection times, operational disruptions, and costs, while ensuring enhanced safety and reliability. Developed by a team of passionate high school students for the Conrad Challenge, this solution redefines aircraft maintenance processes and sets a new standard for safety, efficiency, and sustainability in the aviation industry.</p>
+            </section>
+
+            <a href="{{ url_for('create') }}" class="button" target="_blank" rel="noopener noreferrer">Conrad Challenge</a>
+            <a href="{{ url_for('docs') }}" class="button" target="_blank" rel="noopener noreferrer">AeroVision Documentation</a>
+
+
+    
+            <section id="Product Explanation">
+                <h2>How It Works</h2>
+                <div class="video">
+                </div>
+            </section>
+
+        </div>
+    
+    </div>
+    <!--
+jN85T1l1v_M
+4w89XpGhPi4
+    -->
+    <div class="banner"></div>
+
+</body>
+
+</html>

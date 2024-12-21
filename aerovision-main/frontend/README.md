@@ -1,0 +1,3 @@
+# Website
+This directory contains all the code for the website made by faboonthebaboon, psingh-7, and sanjeev0813 
+...

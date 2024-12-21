@@ -1,0 +1,3 @@
+# PINN
+This directory contains all the code for the PINN made by josephg2044 and []
+...
